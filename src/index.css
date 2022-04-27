@@ -1,0 +1,68 @@
+body {
+  background-color: #F4F7BE;
+
+}
+img {
+  margin-top: 8em;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+p {
+  display: block;
+  text-align: center;
+  padding-top: 3%;
+  font-family: monospace;
+  font-size: 1rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  
+}
+
+/*<button class="button-5" role="button">Button 5</button>
+
+/* CSS */
+.button-5 {
+  display: block;
+  margin-top: 2rem;
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 2px solid #ffaa71;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
